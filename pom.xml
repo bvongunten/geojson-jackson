@@ -9,7 +9,7 @@
 
 	<groupId>de.grundid.opendatalab</groupId>
 	<artifactId>geojson-jackson</artifactId>
-	<version>1.15-SNAPSHOT</version>
+	<version>1.15-SNAPSHOT-M</version>
 	<packaging>jar</packaging>
 
 
@@ -41,7 +41,7 @@
 	</developers>
 
 	<properties>
-		<java-version>1.6</java-version>
+		<java-version>14</java-version>
 		<jackson-version>2.10.0</jackson-version>
 	</properties>
 
@@ -112,7 +112,8 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.8.1</version>
+
 				<configuration>
 					<source>${java-version}</source>
 					<target>${java-version}</target>
